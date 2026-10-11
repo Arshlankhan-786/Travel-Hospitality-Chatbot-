@@ -23,7 +23,7 @@ question = st.text_area(
 if st.button("Ask AI"):
 
     llm = ChatGroq(
-        model="llama-3.1-8b-instant",
+        model="openai/gpt-oss-20b",
         temperature=0.3
     )
 
